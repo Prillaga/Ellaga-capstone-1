@@ -29,7 +29,16 @@ img {
 	width: ;
 }
 
-#home {
+h2 {
+  text-shadow: 1px 1px darkgray;
+}
+
+button {border-radius: 10px;
+  opacity: 0.8;
+  border-color: darkgray;
+}
+
+#landing {
 	margin-top: 12.5vh;
   height: 87.5vh;
   display: flex;
@@ -39,27 +48,27 @@ img {
   background-repeat: no-repeat;
 }
 
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 #aboutme {
 	margin-top: 12.5vh;
-	height: 87.5vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-image: url(https://images.unsplash.com/photo-1515091415679-aba3be00bfb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=100);
-	text-decoration-color: lightgray;
+  height: 87.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
-
-
-#april {
-	margin-top: 12.5vh;
-	height: 87.5vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 
 .landing {
 	background-size: cover;
@@ -252,7 +261,6 @@ em {
   .send-button {
     width: 99%;
   }
-}
 
 
 html {
@@ -266,10 +274,4 @@ html {
 	padding: 25px;
 	color: white;
 	clip-path: none;
-}
-
-@media only screen and (max-width: 480px) {
-  .tools > h2 {
-    font-size: 25px;
-  }
 }
