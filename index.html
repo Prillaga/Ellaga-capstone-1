@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 
- <body> 
+<body> 
  	<!-- navbar start -->
  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<a class="navbar-brand" href="#">Prillaga</a>
@@ -48,99 +48,89 @@
 	<!-- bootstrap navbar end -->
 
 	<!--Home Page start -->
-			<div id="landing" class="jumbotron jumbotron-fluid portfolio-hero full-height d-flex align-items-center my-0">
-	  <div class="container">
-	    <h1 class="display-4">Online Portfolio</h1>
-	    <h2 class="color: text-white">I'm a Front-End Web Developer with a keen eye for detail.</h2>
-	    <button type="button" onclick="window.location.href='#aboutme';" style="background-color: burlywood;">Get to know me</button>
-	  </div>
+	<div id="landing" class="jumbotron jumbotron-fluid portfolio-hero full-height d-flex align-items-center my-0">
+		<div class="container">
+			<h1 class="display-4">Online Portfolio</h1>
+			<h2 class="color: text-white">I'm a Front-End Web Developer with a keen eye for detail.</h2>
+			<button type="button" onclick="window.location.href='#aboutme';" style="background-color: burlywood;">Get to know me</button>
+		</div>
 	</div>	<!--Home Page end -->
 
 	<!-- About me start -->
-			<section id="aboutme" class="text-center jumbotron">
-			<h1>Front-End Web Developer</h1>
-			<p>Hi! my name is April Rose Ellaga and my goal is to optimize the user experience with the help of Zuitt Coding Bootcamp using HTML, CSS and Bootstrap to bring concepts to life. Developing and maintaining the user interface that meets the user's needs.<p>
-			<img class="id" src="https://i.ibb.co/gjcvGW3/Id.png">
-		</section>	<!-- About me end -->	
+	<section id="aboutme" class="text-center jumbotron">
+		<h1>Front-End Web Developer</h1>
+		<p>Hi! my name is April Rose Ellaga and my goal is to optimize the user experience with the help of Zuitt Coding Bootcamp using HTML, CSS and Bootstrap to bring concepts to life. Developing and maintaining the user interface that meets the user's needs.<p>
+		<img class="id" src="https://i.ibb.co/gjcvGW3/Id.png">
+	</section>	<!-- About me end -->	
 
 	<!-- gallery section start -->
 	<section id="gallery" class="text-center bg-dark mb-3">
 		<div class="row">
-  		<div class="col-sm-6 col-md-6 col-xs-12"> 
-    	<div class="content">
-     	 <img src="https://i.ibb.co/MpQyvQt/Developer-Career-Program.png" alt="2" style="width:100%">
-      	<h3 class="text-white">CSS - Common Styling Properties and Positioning</h3>
-     	 <p style="color: white;">The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
-				</p>
-    	</div>
- 	 	</div>
-  		<div class="col-sm-6 col-md-6 col-xs-12">
-    	<div class="content">
-      	<img src="https://i.ibb.co/PCycg2K/Ada-Lovelace.png" alt="4" style="width:100%">
-      	<h3 class="text-white">Bootstrap - Introduction and Simple Styles</h3>
-     	 <p style="color: white;">A strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries.<p>
-   	 		</div>
- 		 </div>
-		</section>
+			<div class="col-sm-12 col-md-6 col-xs-12"> 
+				<div class="content">
+					<img src="https://i.ibb.co/MpQyvQt/Developer-Career-Program.png" alt="2" style="width:100%">
+					<h3 class="text-white">
+						CSS - Common Styling Properties and Positioning
+					</h3>
+					<p style="color: white;">
+						The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+					</p>
+				</div>
+			</div>
+  		<div class="col-sm-12 col-md-6 col-xs-12">
+			<div class="content">
+				<img src="https://i.ibb.co/PCycg2K/Ada-Lovelace.png" alt="4" style="width:100%">
+				<h3 class="text-white">Bootstrap - Introduction and Simple Styles</h3>
+				<p style="color: white;">A strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries.<p>
+			</div>	
+		</div>
+	</section>
 	<!-- gallery section end -->
 
 	<!-- Contact Page start -->
 	<section id="contactpage" class="row py-5">
 <div class="contact-wrapper">
-      
     <form id="contact-form" class="form-horizontal" role="form">
-       
-      <div class="form-group">
-        <div class="col-sm-12">
-          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
-        </div>
-      </div>
+		<div class="form-group">
+			<div class="col-sm-12 p-0">
+				<input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+			</div>
+		</div>
+		<div class="form-group ">
+			<div class="col-sm-12 p-0">
+			<input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+			</div>
+		</div>
 
-      <div class="form-group">
-        <div class="col-sm-12">
-          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
-        </div>
-      </div>
-
-      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-      
-      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-        <div class="alt-send-button">
-          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-        </div>
-      
-      </button>
+		<textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+		<button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+			<div class="alt-send-button">
+				<i class="fa fa-paper-plane"></i>
+				<span class="send-text">SEND</span>
+			</div>
+		</button>
       
     </form>
         
-      <div class="direct-contact-container">
-
-        <ul class="contact-list">
-          <li>Connect with me:</li>
-                    
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">ellagapril26@gmail.com</a></span></i></li>
-
-           <ul class="text-center">
-						<a target="_blank" href="https://www.facebook.com/Yiruma.Beethoven" class="text-warning">Facebook</a>
-						
-						</ul>
-          
-        </ul>
-
-        <div class="copyright">&copy; ALL RIGHTS RESERVED</div>
-
-      	</div>
-    
-  		</div>
-		</section>
+	<div class="direct-contact-container text-center">
+		<div>Connect with me</div>
+		<div class="contact-text gmail">
+			<a href="mailto:#" title="Send me an email">ellagapril26@gmail.com</a>
+		</div>
+		<a target="_blank" href="https://www.facebook.com/Yiruma.Beethoven" class="text-warning">Facebook</a>
+		</div>
+	</div>
+	</section>
 		<!-- Contact Page end-->
-
+	<footer>
+		<div class="copyright">&copy; ALL RIGHTS RESERVED</div>
+	</footer>
 	<!--bootstrap script -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-		</body>
-		</html>
-		</body>
-		</html>
+</body>
+</html>
+</body>
+</html>
 
 

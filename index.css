@@ -1,32 +1,32 @@
 * {
-	font-family: 'ABeeZee', sans-serif;
-	color: black;
+  font-family: 'ABeeZee', sans-serif;
+  color: black;
 }
 
 
 .nav-link {
-	color: #816845 !important;
+  color: #816845 !important;
 }
 
 .nav-link:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .navbar {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 body {
-	background-color: #eeeeee;
-	overflow-x: hidden;
-	margin: 0;
-  	padding: 0;
-  	padding-bottom: 100px;
+  background-color: #eeeeee;
+  overflow-x: hidden;
+  margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
 }
 
 img {
-	height: 400px;
-	width: ;
+  height: 400px;
+  width: 100%;
 }
 
 h2 {
@@ -39,15 +39,21 @@ button {border-radius: 10px;
 }
 
 #landing {
-	margin-top: 12.5vh;
+  margin-top: 12.5vh;
   height: 87.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=100);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
+@media (max-width: 1500px) {
+  #landing {
+    background-size: contain;
+  }
+}
 .button {
   border: none;
   color: white;
@@ -61,7 +67,7 @@ button {border-radius: 10px;
 }
 
 #aboutme {
-	margin-top: 12.5vh;
+  margin-top: 12.5vh;
   height: 87.5vh;
   display: flex;
   flex-direction: column;
@@ -70,26 +76,21 @@ button {border-radius: 10px;
 
 }
 
-.landing {
-	background-size: cover;
-}
-
 .id {
-	height: 250px;
-	width: 250;
-
-	clip-path: circle();
+  height: 250px;
+  width: 250;
+  clip-path: circle();
 }
 
 
 #gallery {
-	padding: 5vh 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-radius: 6px;
-	row-gap: 5%;
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  row-gap: 5%;
 }
 
 #contactpage {
@@ -160,6 +161,11 @@ textarea {
 
 .direct-contact-container {
   max-width: 400px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-list {
@@ -186,10 +192,10 @@ textarea {
 .phone {
   margin-left: 56px;
 }
-
+/* 
 .gmail {
   margin-left: 53px;
-}
+} */
 
 .contact-text a {
   color: #bbb;
@@ -214,8 +220,8 @@ hr {
 }
 
 em {
-	color: black;
-	opacity: 0.8;
+  color: black;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 850px) {
@@ -263,15 +269,32 @@ em {
   }
 
 
-html {
-	scroll-behavior: smooth;
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .tools {
+    border: 5px solid #f2f2f2;
+    width: 75%;
+    margin: 20px;
+    padding: 25px;
+    color: white;
+    clip-path: none;
+  }
 }
 
-.tools{
-	border: 5px solid #f2f2f2;
-	width: 75%;
-	margin: 20px;
-	padding: 25px;
-	color: white;
-	clip-path: none;
+
+.p-0 {
+  padding: 0px;
 }
+
+.content img {
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1440px) {
+  .content img {
+    height: 600px !important;
+  }
+}
+
