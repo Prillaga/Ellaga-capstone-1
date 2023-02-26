@@ -21,6 +21,11 @@ html {
   opacity: 0.8;
 }
 
+.zuitt {
+    height: 35px;
+    width: 35px;
+}
+
 body {
   background-color: #eeeeee;
   overflow-x: hidden;
